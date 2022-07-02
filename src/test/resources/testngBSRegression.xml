@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="com.griddynamics.ppetrenko.listeners.Listeners"/>
+        <listener class-name="com.griddynamics.ppetrenko.listeners.ExtentReporterNG"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="com.griddynamics.ppetrenko.eCommerceApp.EcommerceTC3"/>
+            <class name="com.griddynamics.ppetrenko.apiDemoApp.ApiDemoTest"/>
+            <class name="com.griddynamics.ppetrenko.eCommerceApp.EcommerceTC3Duplicate"/>
+            <class name="com.griddynamics.ppetrenko.apiDemoApp.ApiDemoTestDuplicate"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

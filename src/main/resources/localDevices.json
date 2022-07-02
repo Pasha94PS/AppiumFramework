@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Default"
+  },
+  {
+    "id": "Pixel 4 Emulator",
+    "device.udid": "emulator-5554",
+    "emulator.name": "Pixel_4_API_30"
+  },
+  {
+    "id": "Xiaomi Mi 10T",
+    "device.udid": "1411bb5c"
+  }
+]

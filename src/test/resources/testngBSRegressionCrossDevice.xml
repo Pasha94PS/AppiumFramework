@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Browser Stack Cross-device Regression" parallel="classes" thread-count="2">
+    <parameter name="isExecutionCrossDevice" value="true"/>
+    <listeners>
+        <listener class-name="com.griddynamics.ppetrenko.listeners.Listeners"/>
+        <listener class-name="com.griddynamics.ppetrenko.listeners.ExtentReporterNG"/>
+    </listeners>
+    <test name="Pixel 4">
+        <parameter name="device" value="Pixel 4 | 11"/>
+        <classes>
+            <class name="com.griddynamics.ppetrenko.eCommerceApp.EcommerceTC3"/>
+            <class name="com.griddynamics.ppetrenko.apiDemoApp.ApiDemoTest"/>
+            <class name="com.griddynamics.ppetrenko.eCommerceApp.EcommerceTC3Duplicate"/>
+            <class name="com.griddynamics.ppetrenko.apiDemoApp.ApiDemoTestDuplicate"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Samsung Galaxy">
+        <parameter name="device" value="Samsung Galaxy | 11"/>
+        <classes>
+            <class name="com.griddynamics.ppetrenko.eCommerceApp.EcommerceTC3"/>
+            <class name="com.griddynamics.ppetrenko.apiDemoApp.ApiDemoTest"/>
+            <class name="com.griddynamics.ppetrenko.eCommerceApp.EcommerceTC3Duplicate"/>
+            <class name="com.griddynamics.ppetrenko.apiDemoApp.ApiDemoTestDuplicate"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

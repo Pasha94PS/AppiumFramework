@@ -1,0 +1,17 @@
+[
+  {
+    "id": "Default",
+    "device.name": "Google Pixel 4",
+    "os.version": "11.0"
+  },
+  {
+    "id": "Pixel 4 | 11",
+    "device.name": "Google Pixel 4",
+    "os.version": "11.0"
+  },
+  {
+    "id": "Samsung Galaxy | 11",
+    "device.name": "Samsung Galaxy S21 Ultra",
+    "os.version": "11.0"
+  }
+]
